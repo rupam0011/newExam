@@ -27,7 +27,7 @@ const Page = () => {
                             loop
                             muted
                             playsInline
-                            style={{ width: "100%", height: "100%", borderRadius: "20px", objectFit: "cover" }} // Optional: Adjust size and style
+                            style={{ width: "100%", height: "100%", borderRadius: "20px", objectFit: "cover" }}
                         />
                     </Box>
                 </Box>
@@ -51,7 +51,7 @@ const Page = () => {
                             loop
                             muted
                             playsInline
-                            style={{ width: "100%", height: "100%", borderRadius: "20px", objectFit: "cover" }} // Optional: Adjust size and style
+                            style={{ width: "100%", height: "100%", borderRadius: "20px", objectFit: "cover" }} 
                         />
                     </Box>
                     <Box sx={{ width: "45%" }}>

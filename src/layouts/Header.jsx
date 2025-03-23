@@ -32,7 +32,7 @@ const Header = () => {
             {/* Navigation Links */}
             <Box sx={{ display: "flex", gap: "30px" }}>
 
-              {/* Product (Dropdown) */}
+              {/* Dropdown */}
               <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }} onClick={handleMenuOpen}>
                 <Typography sx={navStyle}>Product</Typography>
                 <KeyboardArrowDownIcon
@@ -41,7 +41,7 @@ const Header = () => {
                     marginLeft: "5px",
                     color: "black",
                     transition: "transform 0.2s ease",
-                    transform: anchorEl ? "rotate(180deg)" : "rotate(0deg)", // Rotate icon when menu opens
+                    transform: anchorEl ? "rotate(180deg)" : "rotate(0deg)", 
                   }}
                 />
               </Box>

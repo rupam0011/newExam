@@ -12,7 +12,7 @@ const Dialogbox = () => {
 
   return (
     <Box>
-      {/* Chat Bubble (Click to Open Snackbar) */}
+      {/* Chat Bubble */}
       <Box
         sx={{
           position: "fixed",
@@ -36,7 +36,7 @@ const Dialogbox = () => {
       {/* Snackbar */}
       <Snackbar
         open={open}
-        autoHideDuration={null} // Stays open until user closes
+        autoHideDuration={null} 
         onClose={handleClose}
         anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
       >
@@ -50,7 +50,7 @@ const Dialogbox = () => {
             position: "relative",
           }}
         >
-          {/* Close Button (Top Right) */}
+          {/* Close Button  */}
           <IconButton
             onClick={handleClose}
             sx={{
@@ -71,7 +71,7 @@ const Dialogbox = () => {
             </Typography>
           </Typography>
 
-          {/* Accept Cookies Button */}
+          {/* Cookies Button */}
           <Button
             variant="contained"
             onClick={handleClose}
